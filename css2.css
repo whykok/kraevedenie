@@ -12,6 +12,7 @@
     background: linear-gradient(rgb(241, 240, 240), rgb(164, 184, 216), #048ABF);
     /* color: rgba(251, 251, 251); */
 }
+
 .header {
     height: 100vh;
 }
@@ -34,6 +35,7 @@ nav>a {
     color: darkblue;
 }
 
+
 .opisanie>h2 {
     line-height: 25vh;
     text-align: center;
@@ -51,7 +53,7 @@ nav>a {
 
 .test>a {
     max-height: 100%;
-    max-width:100%;
+    max-width: 100%;
     padding-bottom: 10%;
     padding: 5%;
 
@@ -63,7 +65,7 @@ nav>a {
     border: 10px solid #ffffff37;
 }
 
-h3{
+h3 {
     text-transform: uppercase;
     padding: 1.5%;
     font-weight: 800;
@@ -78,41 +80,41 @@ h3{
     .wrapper>p {
         font-size: 1.6rem;
     }
-   
-  }
-  
-  @media (max-width: 787px) {
+
+}
+
+@media (max-width: 787px) {
     .wrapper>p {
         font-size: 1.4rem;
     }
-  }
-  
-  @media (max-width:700px) {
+}
+
+@media (max-width:700px) {
     h1 {
         font-size: 2rem;
     }
-  
-    
-  
+
+
+
     .wrapper {
         display: inline;
         float: none;
     }
-  
+
     .wrapper>p {
         text-align: center;
         max-width: 100%;
         font-size: 2rem;
         padding: 1%;
     }
-  
+
     .wrapper>img {
         max-width: 100%;
         margin: 0 auto;
     }
-  
+
     .modal-content {
         width: 27%;
         height: 22%;
     }
-  }
+}
