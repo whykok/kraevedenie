@@ -1,0 +1,180 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 10px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(rgb(241, 240, 240), rgb(164, 184, 216), #048ABF, #BFA89B, #B7B6BC, #8694A6, #F2AB6D, #58734C, #407352, #597593, #80c1d0, #024873);
+  color: rgba(251, 251, 251);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 1%;
+  color: darkblue;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 1.5%;
+  color: darkblue;
+  text-transform: uppercase;
+  padding: 3.5%;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+ button {
+  height: 350px;
+  width: 350px;
+  background-color: #ffffff37;
+ }
+
+.right:focus {
+  background-color: green;
+}
+
+.nonright:focus {
+  background-color: red;
+}
+
+.gift {
+  text-align: center;
+  padding-top: 3.5%;
+}
+
+h3 {
+  color: red;
+  font-size: 5rem;
+  background-color: rgba(255, 255, 255, 0.526);
+}
+
+h4{
+  font-size: 1.5rem;
+  color: darkblue;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.otvet>img{
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  border: 10px solid #ffffff37;
+}
+
+.otvet>h1 {
+  position: absolute;
+  color: #ff0000;
+  font-size: 3rem;
+  padding: 1%;
+}
+
+.otvet>img:hover {
+  opacity: 0;
+}
+
+.footer:hover {
+  height: 7%;
+  color: rgba(251, 251, 251);
+}
+
+.footer>p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1%;
+}
+
+.message {
+  max-height: 100%;
+  max-width: 100%;
+ position: fixed;
+  left: 1%;
+  bottom: 1.5%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: rgba(0, 0, 139, 0.95);
+  opacity: 0.3;
+}
+
+.message:hover {
+  opacity: 1;
+}
+
+.message>a {
+  text-decoration: none;
+  color: rgba(251, 251, 251);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .wrapper>p {
+      font-size: 1.6rem;
+  }
+ 
+}
+
+@media (max-width: 787px) {
+  .wrapper>p {
+      font-size: 1.4rem;
+  }
+}
+
+@media (max-width:700px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  #map {
+      max-width: 70%;
+  }
+
+  .wrapper {
+      display: block;
+      float: none;
+  }
+
+  .wrapper>p {
+      text-align: center;
+      max-width: 100%;
+      font-size: 2rem;
+      padding: 1%;
+  }
+
+  .wrapper>img {
+      max-width: 100%;
+      margin: 0 auto;
+  }
+
+  .modal-content {
+      width: 27%;
+      height: 22%;
+  }
+}
