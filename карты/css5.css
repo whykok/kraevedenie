@@ -10,18 +10,13 @@
     /* background: linear-gradient(blue 16%, green 42%, rgb(251, 251, 251) 75%); */
     background: linear-gradient(rgb(241, 240, 240), rgb(164, 184, 216), #048ABF);
     height: 100vh;
+
 }
 
 h1 {
-    /* text-align: center;
-    color: rgb(251, 251, 251);
-    text-transform: uppercase;
-    font-size: 3rem;
-    padding: 2%;
-    font-weight: 400; */
     text-align: center;
     font-size: 3.5rem;
-    padding: 1%;
+    padding: 3%;
     color: darkblue;
     text-transform: uppercase;
 }
@@ -31,7 +26,7 @@ img {
   }
 #map {
     max-width: 50%;
-    height: 80%;
+    height: 70%;
     margin: 0 auto;
     border: 25px solid #ffffff37;
 }
