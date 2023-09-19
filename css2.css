@@ -35,11 +35,9 @@ nav>a {
 }
 
 .opisanie>h2 {
-    display: block;
+    line-height: 25vh;
     text-align: center;
     font-size: 3rem;
-    padding-top: 10%;
-    padding: 5%;
     color: rgb(90, 134, 203);
     text-transform: uppercase;
 }
