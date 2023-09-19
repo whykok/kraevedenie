@@ -53,16 +53,15 @@ nav>a {
 
 .test>a {
     max-height: 100%;
-    max-width: 100%;
     padding-bottom: 10%;
-    padding: 5%;
+    padding: 10%;
+    /* border: 10px solid #ffffff37; */
 
 }
 
 .test>a>img {
     max-height: 100%;
     max-width: 100%;
-    border: 10px solid #ffffff37;
 }
 
 h3 {
